@@ -1,0 +1,110 @@
+body{
+background-color: hsl(257, 40%, 49%);
+padding: 0;
+margin: 0;
+font-family: 'Poppins', sans-serif;
+color: #fff;
+}
+.overlay{
+  background-image: url(images/bg-desktop.svg);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left:0;
+  z-index: -2;
+}
+.container-fluid{
+  padding: 2% 5%;
+}
+.navbar{
+  padding-left: 0;
+  margin:20px 0 40px;
+
+}
+.logo{
+  width: 80%;
+}
+h2{
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 20px
+}
+p{
+  font-weight: 400;
+  font-size: 1rem;
+}
+.btn{
+  background-color: #fff;
+  color: hsl(300, 69%, 71%);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 50px;
+  width: 200px;
+  padding:10px 0;
+  box-shadow: 5px 5px 15px #433d3c;
+  margin-top: 10px;
+}
+.btn:hover{
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
+}
+.illustration{
+  width: 100%;
+}
+.content{
+  padding: 50px 10px;
+  width:90%;
+}
+.social
+{
+  text-align: right;
+  margin-bottom: 20px;
+}
+.icons{
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin: 5px;
+}
+.icon{
+  margin: auto;
+  padding: 0;
+}
+.icons:hover{
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}
+
+@media (max-width:600px) {
+  .content{
+    padding: 50px 10px;
+    text-align: center;
+    width: 100%;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  p{
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+  .logo{
+    width: 60%;
+  }
+  .btn{
+    font-size: 0.8rem;
+    width: 80%;
+  }
+  .social{
+text-align: center;
+  }
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: #c6ebc9; }
